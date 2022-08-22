@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(40, 102, 59);
+    align-items: center;
+
+}
+
+header img {
+    width: 250px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.parrafoGrande {
+    font-size: 20px;
+}
+
+.parrafoAzul {
+    color: rgb(17, 17, 233);
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 30px 20px 20px 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: oblique;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.ofrecimiento {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+.productoServicios {
+    background-color: rgb(150, 143, 22);
+    border: black 4px solid;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 35%;
+
+
+
+}
+
+h1 {
+    border: black 2px solid;
+    padding: 10px;
+    text-align: center;
+    margin: 15px 5px 15px 5px;
+    background-color: rgb(238, 232, 146);
+    border-radius: 20px;
+}
+
+h2 {
+    border: black 4px solid;
+    border-radius: 10px;
+    padding: 23px;
+    text-align: center;
+    margin: 31px 5px 28px 35%;
+    background-color: rgb(233, 86, 110);
+    width: 368px;
+    height: 41px;
+}
+
+
+
+
+
+main section ul {
+
+    background-color: rgb(230, 191, 94);
+    margin: 30px 5px 30px 500px;
+    text-align: justify;
+    width: 220px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+li {
+    list-style: none;
+}
+
+#ubicacion {
+    text-align: center;
+    background-color: rgba(139, 0, 139, 0.281);
+    margin: 50px 100px 0px 100px;
+    width: 200;
+    height: 80;
+    border-radius: 20px;
+    border: black 2px solid;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer ul li {
+    display: inline;
+    margin: 100px;
+}
+
+iframe {
+    margin-left: 600px
+}
+
+.desVarios {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.desProd {
+    text-align: center;
+
+}
+
+.imagenDes {
+    text-align: center;
+}
+
+.propuesta {
+    text-align: center;
+    font-size: 50 px;
+    color: blue;
+
+}
+
+.tiposEventos {
+    text-align: center;
+    font-size: 50 px;
+}
+
+.lugar {
+    text-align: center;
+    font-size: 50 px;
+
+}
+
+.imagen-centrada {
+    display: block;
+    margin: 0px auto;
+}
+
+.variedad {
+    display: grid;
+    grid-template-columns: repeat(3, 30vw);
+    justify-items: stretch;
+    justify-content: space-evenly;
+
+}
+
+.carta{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
